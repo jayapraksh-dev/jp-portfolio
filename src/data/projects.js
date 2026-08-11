@@ -29,6 +29,7 @@ export const projectsData = [
     description:
       'A comprehensive web-based platform that integrates OpenAI APIs to automate workflow insights, code generation, and team productivity tracking with responsive real-time UI.',
     category: 'Featured Project',
+    filterTags: ['ai', 'fullstack'],
     image: createPreviewImage('AI Workflow & Analytics Platform', 'Real-time automation dashboard powered by LLMs.'),
     technologies: ['React', 'Node.js', 'Laravel API', 'OpenAI API'],
     liveUrl: '#',
@@ -41,6 +42,7 @@ export const projectsData = [
     description:
       'A high-performance project management web application featuring interactive Kanban boards and custom RESTful backends.',
     category: 'Full Stack',
+    filterTags: ['web', 'fullstack'],
     image: createPreviewImage('SaaS Application UI Preview', 'Interactive Kanban boards and analytics dashboards'),
     technologies: ['PHP / Laravel', 'React', 'Tailwind CSS'],
     liveUrl: '#',
@@ -53,6 +55,7 @@ export const projectsData = [
     description:
       'A lightning-fast frontend shopping experience built with micro-interactions, dark mode support, and smooth page transitions.',
     category: 'Frontend',
+    filterTags: ['frontend'],
     image: createPreviewImage('Modern E-Commerce UI Preview', 'Fast storefront experience with dark mode support'),
     technologies: ['JavaScript', 'React', 'Framer Motion'],
     liveUrl: '#',
