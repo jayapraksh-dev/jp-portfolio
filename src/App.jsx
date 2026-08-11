@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import SkillsMarquee from './components/SkillsMarquee'
+import About from './components/About'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <main className="relative z-10">
         <Hero />
         <SkillsMarquee />
+        <About />
       </main>
     </div>
   )
