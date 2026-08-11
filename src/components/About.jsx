@@ -1,4 +1,5 @@
 import React from 'react'
+import WhatIDo from './WhatIDo'
 
 /**
  * About Component
@@ -9,6 +10,7 @@ import React from 'react'
  * - Two-column editorial layout
  * - Left column: Avatar / portrait container card with gradient overlay
  * - Right column: Bio narrative paragraphs and statistics grid
+ * - What I Do cards grid
  */
 
 const statsData = [
@@ -84,6 +86,9 @@ function About() {
           </div>
 
         </div>
+
+        {/* What I Do Section */}
+        <WhatIDo />
 
       </div>
     </section>
