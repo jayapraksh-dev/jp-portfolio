@@ -1,5 +1,6 @@
 import React from 'react'
 import WhatIDo from './WhatIDo'
+import TechStack from './TechStack'
 
 /**
  * About Component

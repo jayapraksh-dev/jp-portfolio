@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import SkillsMarquee from './components/SkillsMarquee'
 import About from './components/About'
+import TechStack from './components/TechStack'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Hero />
         <SkillsMarquee />
         <About />
+        <TechStack />
       </main>
     </div>
   )
