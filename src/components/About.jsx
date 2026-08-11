@@ -91,6 +91,10 @@ function About() {
         {/* What I Do Section */}
         <WhatIDo />
 
+        {/* Tech Stack Section */}
+        <TechStack />
+        
+
       </div>
     </section>
   )

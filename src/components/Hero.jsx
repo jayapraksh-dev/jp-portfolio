@@ -16,7 +16,7 @@ import { ArrowRight, Cpu, CheckCircle2 } from 'lucide-react'
  */
 function Hero() {
   return (
-    <section id="home" className="min-h-screen pt-32 pb-20 flex flex-col justify-center relative overflow-hidden">
+    <section id="home" className="min-h-screen pt-32 pb-10 flex flex-col justify-center relative overflow-hidden">
       {/* Background Ambient Glow */}
       <div className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-accent/10 rounded-full blur-[120px] pointer-events-none animate-pulse-glow"></div>
 
