@@ -42,16 +42,19 @@ function About() {
           <div className="lg:col-span-5">
             <div className="relative rounded-2xl overflow-hidden border border-dark-border light:border-slate-200 bg-dark-card light:bg-white p-3 group">
               <div className="aspect-[4/5] rounded-xl overflow-hidden relative bg-slate-800 flex items-center justify-center">
-                {/* Graphic Gradient Overlay */}
-                <div className="absolute inset-0 bg-gradient-to-tr from-dark-bg via-transparent to-accent/20 z-10"></div>
+                <img
+                  src="/src/assets/profile.png"
+                  alt="Jayaprakash"
+                  className="absolute inset-0 w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-tr from-dark-bg via-dark-bg/60 to-accent/10 z-10"></div>
                 
-                {/* Avatar Content */}
-                <div className="text-center p-6 z-20">
-                  <div className="w-24 h-24 rounded-full bg-accent/20 border-2 border-accent text-accent flex items-center justify-center text-3xl font-bold font-heading mx-auto mb-4">
+                <div className="text-center p-8 z-20 relative">
+                  <div className="w-24 h-24 rounded-full bg-accent/30 border-2 border-accent text-accent flex items-center justify-center text-3xl font-bold font-heading mx-auto mb-4 backdrop-blur-md shadow-lg shadow-accent/40">
                     JP
                   </div>
-                  <p className="text-white font-medium text-lg">Jayaprakash</p>
-                  <p className="text-slate-400 text-sm font-mono mt-1">Software Engineer</p>
+                  <p className="text-white font-medium text-lg drop-shadow-lg">Jayaprakash</p>
+                  <p className="text-slate-200 text-sm font-mono mt-1 drop-shadow-md">Software Engineer</p>
                 </div>
               </div>
             </div>
@@ -93,7 +96,7 @@ function About() {
 
         {/* Tech Stack Section */}
         <TechStack />
-        
+
 
       </div>
     </section>

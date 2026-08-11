@@ -28,7 +28,7 @@ function Hero() {
             {/* Status / Greeting Badge */}
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-accent/10 border border-accent/20 text-accent text-xs font-mono tracking-wider uppercase mb-6">
               <span className="w-2 h-2 rounded-full bg-accent animate-ping"></span>
-              Software Engineer • Creative Developer
+              Software Engineer • AI Engineer • Web Developer
             </div>
 
             {/* Main Headline */}
