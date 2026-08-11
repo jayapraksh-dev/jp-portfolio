@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
+import SkillsMarquee from './components/SkillsMarquee'
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Navbar />
       <main className="relative z-10">
         <Hero />
+        <SkillsMarquee />
       </main>
     </div>
   )
